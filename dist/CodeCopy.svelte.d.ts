@@ -1,0 +1,21 @@
+import type { Snippet } from 'svelte';
+type $$ComponentProps = {
+    onCopy?: (promise: Promise<string>) => void;
+    size?: number;
+    background?: string;
+    color?: string;
+    success?: string;
+    error?: string;
+    top?: string;
+    right?: string;
+    border?: string;
+    padding?: string;
+    borderRadius?: string;
+    margin?: string;
+    effect?: 'none' | 'push' | 'pop';
+    duration?: number;
+    children: Snippet;
+};
+declare const CodeCopy: import("svelte").Component<$$ComponentProps, {}, "">;
+type CodeCopy = ReturnType<typeof CodeCopy>;
+export default CodeCopy;
