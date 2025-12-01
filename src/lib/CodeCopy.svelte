@@ -2,7 +2,7 @@
   import { observable } from './observable/index.js'
   import type { Snippet } from 'svelte'
   import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
-  import { is } from 'svelte-hydrated'
+  import { is } from './hydrated/index.svelte.js'
   import { fade } from 'svelte/transition'
 
   let {
